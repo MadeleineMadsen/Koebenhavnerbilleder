@@ -112,15 +112,16 @@ import Button2 from '../components/Button2.astro';
 		<!-- Galleri -->
 		<section class="mt-32">
 			<h2 class="text-4xl font-bold mx-auto mb-16">Udvalgte billeder fra bogen</h2>
-			<div class="grid lg:grid-cols-2 gap-4">
-				<img src="/public/billede1.jpg" alt="">
-				<img src="/public/billede2.jpg" alt="">
-				<img src="/public/billede3.jpeg" alt="">
-				<img src="/public/billede4.jpg" alt="">
-				<img src="/public/billede5.jpg" alt="">
-				<img src="/public/billede6.jpg" alt="">
-				<img src="/public/billede7.jpg" alt="">
-				<img src="/public/billede8.jpg" alt="">
+			<div class="grid lg:grid-cols-3 gap-4">
+				<img class="hover:scale-105" src="/public/billede1.jpg" alt="">
+				<img class="hover:scale-105" src="/public/billede2.jpg" alt="">
+				<img class="hover:scale-105" src="/public/billede3.jpeg" alt="">
+				<img class="hover:scale-105" src="/public/billede4.jpg" alt="">
+				<img class="hover:scale-105" src="/public/billede5.jpg" alt="">
+				<img class="hover:scale-105" src="/public/billede6.jpg" alt="">
+				<img class="hover:scale-105" src="/public/billede7.jpg" alt="">
+				<img class="hover:scale-105" src="/public/billede8.jpg" alt="">
+				<img class="hover:scale-105" src="/public/billede9.jpg" alt="">
 			</div>
 		</section>
 
@@ -155,7 +156,7 @@ import Button2 from '../components/Button2.astro';
 				<label for="afhent">Afhent selv</label>
 			</div>
 		
-			<div class="grid gap-3">
+			<div class="grid gap-3 ">
 				<label for="navn">Navn:</label>
 				<input class="rounded-full" type="text" id="navn" name="navn" placeholder="Anders And">
 			</div>
